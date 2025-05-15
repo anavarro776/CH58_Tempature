@@ -1,0 +1,49 @@
+body{
+    background-color: lightgray;
+}
+
+main{
+    margin-top: 5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    display: inline-block;
+    background-color: green;
+    font-style: normal;
+    color: white;
+    padding: .5rem .5rem;
+}
+p{
+    display: inline-block;
+    background-color: lightslategray;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    border: 5px;
+    border-radius: 5px;
+ }  
+  
+
+
+
+
+
+.converter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conversion{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right:auto ;
+}
