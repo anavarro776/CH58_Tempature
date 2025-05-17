@@ -1,23 +1,27 @@
 console.log( "Assiginmet 3 Tempature");
 //User Enters Tempature
 
-let tempature = prompt(" Enter Your Tempature ");
-let scale = prompt("Please Enter C Or F");
+
 
 //Converts Tempature 
-let fahrenhiet = (tempature*9/5+32);
-let celsisu=((tempature-32)*5/9);
 
 
 
+ 
 
 //Displays in HTML
 document.getElementById("result").innerHTML=`The conversion of Celsius  ${tempature}" to Fahrenheit is ${fahrenhiet}"`;
 
 // Converts Temapature if needed
 function convertTempature(){
+ 
+let tempature = prompt(" Enter Your Tempature ");
+let scale = prompt("Please Enter C Or F");
+let fahrenhiet = (tempature*9/5+32);
+let celsisu=((tempature-32)*5/9);
+
     if (scale =="C"){
-      document.getElementById("result").innerHTML=`The conversion of Celsius  ${tempature}" to Fahrenheit is ${fahrenhiet}"`;
+      document.getElementById("result").innerHTML=`The conversion of Celsius  ${tempature}" to Fahrenheit is ${fahrenhiet.toFixed(2)}"`;
       console.log(`The conversion of Celsius  ${tempature} to Fahrenheit is ${fahrenhiet}`);
     }
     else {
@@ -26,5 +30,6 @@ function convertTempature(){
     }
  
 }
+
 
 convertTempature();
