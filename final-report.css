@@ -4,6 +4,7 @@
 }
 
 
+
 body{
     background-color: lightgray;
   
@@ -12,15 +13,18 @@ body{
 
 
 header{
-    margin-top: auto;
-    width: 100%;
-    background-size: cover;
-    background-image:url(./imgs/HeaderCtoF-2180312261-612x612.jpg) ;
-    height: 15vh;
+    
+     background:url(./imgs/HeaderCtoF-2180312261-612x612.jpg) ;
+     background-size: cover;
+      height: 15vh;
+     background-position: center center;
+   
     text-align: center;
     text-decoration: underline;
     padding-top: 80px;
 
+   
+   
 }
 
 
@@ -42,7 +46,7 @@ button{
 p{
     display: flex;
     flex-direction: column;
-    display: inline-block;
+    
     background-color: lightslategray;
     margin-left: 20px;
     padding-left: 20px;
@@ -75,8 +79,10 @@ p{
 
 
 footer{
+    margin-top: 20px;
+    background:url(./imgs/zpfooter-1985849614-2048x2048.jpg);
     background-size: cover;
-    background-image:url(./imgs/zpfooter-1985849614-2048x2048.jpg);
-    height: 15vh;
-    width: 100%;
+    height: 20vh;
+    background-position: center center;
+    
 }
